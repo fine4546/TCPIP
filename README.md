@@ -1,5 +1,3 @@
-# TCPIP
-
 1. ip확인   
    ping으로 확인함 
 
@@ -28,6 +26,9 @@ https://webdir.tistory.com/206
 //간단하게 nc로 tcp 서버와 클라이언트 테스트 
 https://devanix.tistory.com/307
 
+//서버 소스
+https://nroses-taek.tistory.com/87
+
 5. TCP 서버 동작 방법
 소스위치 :  ~/work/dab/server_taskone.c
 gcc server_taskone.c -o server
@@ -35,12 +36,13 @@ gcc server_taskone.c -o server
 port 1234  로 설정함. 
 클라이언트에서 입력되는 사이즈는 1024byte
 
+"0"를 입력하면 마이크 실행됨
 "2"를 입력하면  audio2_enc.sh 실행됨
 "3"를 입력하면  audio3_enc.sh 실행됨
-"quit"를 입력하면 접속이 종료됨
+..."7" 까지 입력하면 실행되게 함.
+"q"를 입력하면 접속이 종료됨
 
-server에서는 "end"를 입력하면 서버 종료됨
-긴급 서버 종료 ctrl + c   
+server 종료 ctrl + c   
 
 6. 예외상황
 server를 내리고 동작 시킬때 동작이 안되고
