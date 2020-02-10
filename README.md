@@ -53,3 +53,6 @@ sudo kill -9 pid번호
 
 만약 netstat -lntp 해도 나타나지 않으면 timewate에 걸린것이므로 time 셋팅된 
 시간이후에 다시 실행하면 동작한다. 그래도 안되면 재부팅을 권함.
+
+
+
